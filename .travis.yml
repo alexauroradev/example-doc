@@ -23,10 +23,10 @@ install:
 
 script:
   - python -m mkdocs build
-  - source ./misc/lint.sh md
-  - source ./misc/lint.sh html
-  - source ./misc/lint.sh links
+  - bash ./misc/lint.sh md
+  - bash ./misc/lint.sh html
+  - bash ./misc/lint.sh links
 
 after_script:
   # Kill mkdocs server if it's still running
-  - source ./misc/lint.sh kill
+  - bash ./misc/lint.sh kill
