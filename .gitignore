@@ -1,0 +1,11 @@
+# Generic rules
+.*
+!.gitignore
+!.travis.yml
+
+# IDE files
+!.editorconfig
+*.iml
+
+# Generated docs
+site/
