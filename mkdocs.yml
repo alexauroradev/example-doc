@@ -1,6 +1,7 @@
-site_name: Exonum Documentation
+site_name: Example Documentation
 docs_dir: src
-extra_css:
-    - css/extra.css
+theme: material
+theme_dir: theme
+site_favicon: 'images/favicon.ico'
 pages:
     - 'Home': 'index.md'
