@@ -8,15 +8,14 @@
 
 ## Invalid formatting
 
-Long line is long. Long line is long. Long line is long. Long line is long. Long line is long. Long line is long.
+Correct line
 
-- Incorrectly
-formatted
+- list
 - list
 
-**Bold that should be a header**
+### Bold that should be a header
 
 Some text:
-1. Some more
-   incorrect
+
+1. list formatting
 2. list formatting
