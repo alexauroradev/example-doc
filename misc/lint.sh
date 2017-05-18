@@ -26,7 +26,7 @@ lint_md () {
 }
 
 lint_html () {
-  html5validator --root "$SITE_DIR" --show-warnings;
+  html5validator --root "$SITE_DIR" --show-warnings --ignore-re 'Attribute "(autocorrect|autocapitalize)" not allowed' 'Illegal character in query: "\|"';
 }
 
 lint_links () {
