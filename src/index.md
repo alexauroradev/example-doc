@@ -2,5 +2,16 @@
 
 [link](https://github.com/djsatok/example-doc)
 
-[wrong-link](https://github.com/djsatok/example-doc1)
+## Invalid formatting
 
+Correct line
+
+- list
+- list
+
+### Bold that should be a header
+
+Some text:
+
+1. list formatting
+2. list formatting
